@@ -1,0 +1,47 @@
+[
+  {
+    "imgID": "nokian-tyres",
+    "width": "13.85em",
+    "height": "4em"
+  },
+  {
+    "imgID": "huawei",
+    "width": "15.6em",
+    "height": "3.4em"
+  },
+  {
+    "imgID": "playstation",
+    "width": "8.7em",
+    "height": "8.7em"
+  },
+  {
+    "imgID": "renault",
+    "width": "7.75em",
+    "height": "8.25em"
+  },
+  {
+    "imgID": "samsung",
+    "width": "15.7em",
+    "height": "2.3em"
+  },
+  {
+    "imgID": "jacobs-coffee",
+    "width": "12.6em",
+    "height": "4.55em"
+  },
+  {
+    "imgID": "hp",
+    "width": "8.05em",
+    "height": "8.05em"
+  },
+  {
+    "imgID": "volvo",
+    "width": "15.65em",
+    "height": "2.15em"
+  },
+  {
+    "imgID": "tatneft",
+    "width": "16.6em",
+    "height": "4.6em"
+  }
+]

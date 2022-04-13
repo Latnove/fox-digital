@@ -1,0 +1,73 @@
+.header {
+  position: fixed;
+  height: 120px;
+  width: 100vw;
+  z-index: 3;
+  transition: all 0.4s;
+
+  &.active-scroll {
+    background-color: rgba(06, 06, 06, 0.9);
+  }
+
+  &__container {
+    max-width: 1550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+  }
+}
+.site-logo {
+  font-size: 20px;
+  width: 12.7em;
+  height: 3.05em;
+}
+
+.navigation {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__link {
+    font-family: Raleway;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.166em;
+    letter-spacing: 0.01em;
+    color: #fcfcfc;
+    opacity: 0.6;
+    transition: all 0.3s;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    &:hover,
+    &:hover::after {
+      opacity: 1;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 11px;
+      height: 7px;
+      background-image: url("../img/subtract-white.svg");
+      background-repeat: no-repeat;
+      pointer-events: none;
+      opacity: 0;
+      transition: all 0.4s;
+    }
+  }
+}

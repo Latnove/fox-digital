@@ -1,0 +1,83 @@
+.about {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 110px;
+
+  &__container {
+    max-width: 1550px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  &__img {
+    font-size: 20px;
+    width: 50%;
+    height: 32.1em;
+    position: relative;
+
+    &::before {
+      content: "";
+      font-size: inherit;
+      position: absolute;
+      top: 50%;
+      right: -6px;
+      width: calc(60em + 12px);
+      height: calc(31.5em + 12px);
+      transform: translateY(-50%);
+      background-color: #ddd;
+      z-index: -1;
+      border-radius: 30px;
+    }
+
+    img {
+      font-size: inherit;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 60em;
+      height: 31.5em;
+      transform: translateY(-50%);
+      object-fit: cover;
+      border-radius: 30px;
+    }
+  }
+
+  &__content {
+    width: 50%;
+    max-width: 630px;
+  }
+
+  &__title {
+    color: var(--black-color);
+    opacity: 0.8;
+    margin-bottom: 20px;
+  }
+
+  &__company-name {
+    width: 620px;
+    height: 70.5px;
+    fill: var(--main-color);
+    margin-bottom: 59.5px;
+  }
+
+  &__text {
+    line-height: 1.2307em !important;
+    color: var(--black-color);
+    opacity: 0.8;
+
+    & > p:first-of-type {
+      margin-bottom: 1.2307em;
+    }
+  }
+}
+
+.block-name {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.23076em;
+  letter-spacing: 0.01em;
+}

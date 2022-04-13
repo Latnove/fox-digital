@@ -1,0 +1,11 @@
+<section id="partners" class="partners">
+  <div class="partners__bg"></div>
+  <div class="container partners__container">
+    <h3 class="block-name partners__block-name">Наши клиенты</h3>
+    <h2 class="title partners__title">Нам доверяют</h2>
+
+    <div class="partners__list">
+      @@loop('./components/_partners-item.html', '../data-json/partners.json')
+    </div>
+  </div>
+</section>

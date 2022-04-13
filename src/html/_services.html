@@ -1,0 +1,39 @@
+<section id="services" class="services">
+  <div class="container services__container">
+    <div class="services__content">
+      <h3 class="block-name services__block-name">Наши услуги</h3>
+
+      <h2 class="title services__title">Приведем клиентов</h2>
+
+      <div class="text services__text">
+        Кстати, диаграммы связей, которые представляют собой яркий пример
+        континентально-европейского типа политической культуры.
+      </div>
+    </div>
+  </div>
+
+  <div class="services__list services-list">
+    <div class="services-list__lines">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="services__arrow"></span>
+    </div>
+
+    @@loop('./components/_services-item.html', '../data-json/services.json')
+  </div>
+</section>

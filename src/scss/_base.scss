@@ -1,0 +1,45 @@
+html {
+  &:root {
+    --black-color: #060606;
+    --text-color: #fff;
+  }
+  &[data-active-theme="orange"] {
+    --main-color: #f24530;
+    --main-gradient: url("../img/main-gradient-orange.svg");
+    --subtract: url("../img/subtract-orange.svg");
+    --grab-color: linear-gradient(248.62deg, #f55929 -3.03%, #ec1f3d 180.73%);
+    --projects-gradient: url("../img/projects-gradient-orange.svg");
+    --partners-gradient: url("../img/partners-gradient-orange.svg");
+  }
+
+  &[data-active-theme="blue"] {
+    --main-color: #0094ff;
+    --main-gradient: url("../img/main-gradient-blue.svg");
+    --subtract: url("../img/subtract-blue.svg");
+    --grab-color: linear-gradient(248.62deg, #0085ff -3.03%, #2549a6 180.73%);
+    --projects-gradient: url("../img/projects-gradient-blue.svg");
+    --partners-gradient: url("../img/partners-gradient-blue.svg");
+  }
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  @media (max-width: 1600px) {
+    padding: 0 25px;
+  }
+}
+
+.title {
+  font-family: OpenSans;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 1.1em;
+}
+
+.text {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2777em;
+}

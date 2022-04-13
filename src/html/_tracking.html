@@ -1,0 +1,25 @@
+<section id="tracking" class="tracking">
+  <div class="container tracking__container">
+    <div class="tracking__main">
+      <div class="tracking__video">
+        <img src="../img/spiderman.jpg" alt="Garbage (spiderman) image" />
+      </div>
+
+      <div class="tracking__content">
+        <h3 class="block-name tracking__block-name">EYE-TRACKING</h3>
+
+        <h2 class="title tracking__title">Эффективная реклама</h2>
+
+        <div class="text tracking__text">
+          В рамках спецификации современных стандартов, активно развивающиеся
+          страны третьего мира являются только методом политического участия и
+          указаны как претенденты на роль ключевых факторов!
+        </div>
+      </div>
+    </div>
+
+    <div class="tracking__stages stages-list">
+      @@loop('./components/_tracking-item.html', '../data-json/tracking.json')
+    </div>
+  </div>
+</section>

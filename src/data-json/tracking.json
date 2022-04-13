@@ -1,0 +1,38 @@
+[
+  {
+    "imgSVG": "../img/magnifier.svg",
+    "strageNumber": 1,
+    "text": "Сбор респондентов",
+    "objectArial": "Pictured magnifying glass"
+  },
+  {
+    "imgSVG": "../img/board.svg",
+    "strageNumber": 2,
+    "text": "Анализ и создание плана тестирования",
+    "objectArial": "Pictured board with an increase in something"
+  },
+  {
+    "imgSVG": "../img/fire.svg",
+    "strageNumber": 3,
+    "text": "Тестирование сайта",
+    "objectArial": "Pictured tilted fire"
+  },
+  {
+    "imgSVG": "../img/label.svg",
+    "strageNumber": 4,
+    "text": "Анализ тепловой карты",
+    "objectArial": "Pictured label with fire in the center"
+  },
+  {
+    "imgSVG": "../img/union.svg",
+    "strageNumber": 5,
+    "text": "Корректировки на основе тестирования",
+    "objectArial": "Pictured magnifying glass and strange thing"
+  },
+  {
+    "imgSVG": "../img/net-core.svg",
+    "strageNumber": 6,
+    "text": "Сайт с подтвержденной эффективностью",
+    "objectArial": "Pictured the world wide web"
+  }
+]

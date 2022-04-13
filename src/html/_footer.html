@@ -1,0 +1,38 @@
+<footer id="footer" class="footer">
+  <div class="container footer__container">
+    <div class="footer__content">
+      <h2 class="title footer__title">Оставьте заявку</h2>
+      <h3 class="footer__subtitle">Получите бесплатный аудит вашего проекта</h3>
+
+      <form class="footer__form footer-form" autocomplete="on">
+        <div class="footer-form__inputs">
+          <input type="text" name="name" placeholder="Ваше имя" required />
+          <span class="footer-form__line"></span>
+          <input
+            id="footer-phone"
+            type="text"
+            placeholder="Телефон"
+            name="tel"
+            required
+          />
+        </div>
+
+        <button type="submit" class="button-audit">
+          <span>Получить аудит</span>
+          <svg>
+            <use href="#tweet"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+
+    <div data-scroll="#main" class="footer__logo">
+      <object
+        class="site-logo"
+        type="image/svg+xml"
+        data="../img/logo.svg"
+        aria-label="This pictured logo of site"
+      ></object>
+    </div>
+  </div>
+</footer>
